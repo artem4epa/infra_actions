@@ -47,7 +47,6 @@ jobs:
   #   runs-on: ubuntu-latest
   #   needs: build # Не выполнять сразу, ждать, пока выполнится build
   #   steps:
-    build
       - name: Push Docker image to Docker Hub
           runs-on: ubuntu-latest
           needs: tests
